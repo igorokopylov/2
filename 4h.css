@@ -1,0 +1,34 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto
+}
+h3 {
+    background-color: black;
+    color: white;
+    font-size: 20px
+}
+p {
+    font-size: 18px
+}
+.hardway {
+    background-color: #990909;
+    color: white
+}
+.black {
+    background-color: black;
+    height: 200px;
+    width: 850px;
+    border-width: 20px
+}
+.blood {
+    background-color: #7D0909;
+    width: 200px
+}
+.p4h {
+    font-size: 20px
+}
+.art {
+    color: black;
+    background-color: white
+}
