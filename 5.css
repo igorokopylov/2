@@ -1,8 +1,7 @@
 body {
-    background-image: url('fon.png');
     background-repeat: repeat-y;  
     background-size: cover;
-    background-color: #1D1C1C;
+    background-color: black;
     background-position: center;
     width: auto;
     margin-top: 108px;
