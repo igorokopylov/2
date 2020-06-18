@@ -1,0 +1,81 @@
+* {
+    transition: all .1s ease-in;
+}
+
+@font-face {
+    font-family: "Trebuchet MS";
+    src: url("9412.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Trebuchet MS";
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+    background-color: #4A4F56;
+    color: #EB7E72;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div {
+    background-color: #3B3F45;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pos {
+    display: inline-block;
+    color: white;
+    padding-left: 0%;
+}
+
+li {
+    width: 800px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #88839E;
+    text-align: left;
+    list-style-type: none;
+    font-size: 20px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+li:nth-child(2n) {
+    background-color: #7A7593;
+}
+
+li:hover {
+    background-color: #625E77;
+    border-color: white;
+}
+
+li:active {
+    background-color: red
+}
+
+.footer {
+    display: inline-block;
+    width: 800px;
+    height: 50px;
+    color: #EB7E72;
+    background-color: #4A4F56;
+    padding-top: 20px;
+}
+
+input:checked+span {
+    text-decoration: line-through;
+}
+
+.funny {
+    font-size: 12px;
+}
