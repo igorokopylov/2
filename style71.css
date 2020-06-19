@@ -27,6 +27,7 @@ p {
 
 li:hover {
     background-color: #00C9CC;
+    color: white;
 }
 ul {
     font-size: 0;
