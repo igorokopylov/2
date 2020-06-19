@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+header {
+    font-size: 12px;
+    color: #88909B;
+}
+h1 {
+    color: #00C9CC;
+    margin-top: 37px;
+    margin-bottom: 46px;
+}
+
+li {
+    display: inline-block;
+    width: 240px;
+    height: 420px;
+    background-color: #F7F7F7;
+    border: 1px solid grey;
+    font-size: 11px;
+}
+p {
+    margin-bottom: 109px;
+    color: #9A9A9A;
+}
+
+li:hover {
+    background-color: #00C9CC;
+}
+ul {
+    font-size: 0;
+}
+li div {
+    width: 65px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+    margin-bottom: 42px;
+    background-repeat: no-repeat;
+}
+.anchor {
+    background-image: url('./images/Anchor.png');
+}
+li:hover .anchor {
+    background-image: url('./images/Anchor_w.png');
+}
+.diamont {
+    background-image: url('./images/diamond.png');
+}
+.eyeglasses {
+    background-image: url("./images/Eyeglasses.png");
+}
+li:hover .diamont {
+    background-image: url('./images/diamond_w.png');
+}
+li:hover .eyeglasses {
+    background-image: url("./images/Eyeglasses_w.png");
+}
+.monitor {
+    background-image: url('./images/monitor.png');
+}
+li:hover .monitor {
+    background-image: url('./images/monitor_w.png');
+}
+span {
+    color: #88909B;
+}
