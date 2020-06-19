@@ -47,22 +47,22 @@ li:hover .anchor {
     background-image: url('./images/Anchor_w.png');
 }
 .diamont {
-    background-image: url('./images/diamond.png');
+    background-image: url('./images/Diamond.png');
 }
 .eyeglasses {
     background-image: url("./images/Eyeglasses.png");
 }
 li:hover .diamont {
-    background-image: url('./images/diamond_w.png');
+    background-image: url('./images/Diamond_w.png');
 }
 li:hover .eyeglasses {
     background-image: url("./images/Eyeglasses_w.png");
 }
 .monitor {
-    background-image: url('./images/monitor.png');
+    background-image: url('./images/Monitor.png');
 }
 li:hover .monitor {
-    background-image: url('./images/monitor_w.png');
+    background-image: url('./images/Monitor_w.png');
 }
 span {
     color: #88909B;
