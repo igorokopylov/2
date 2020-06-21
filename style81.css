@@ -1,0 +1,60 @@
+body {
+    background-color: #E2E7EC;
+}
+.box {
+    width: 1123px;
+    height: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.girl, .girls, .boots, .square {
+    width: 33%;
+}
+.car {
+    background-image: url('./images/car.png');
+    width: 66%;
+    background-repeat: no-repeat;
+   
+}
+.post {
+    height: 540px;
+    background-color: white;
+}
+.text {
+    padding-left: 27px;
+    padding-top: 60px;
+}
+.date, .datecar {
+    color: #818181;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.33px;
+}
+.info, .infocar {
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.95px;
+    width: 300px;
+}
+.datecar {
+    padding-top: 330px;
+    color: white;
+}
+.postcar {
+    color: white;
+    margin-left: 27px;
+}
+.loadtext {
+    color: #99a5b0;
+    font-size: 13px;
+}
+.load {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    color: #99a5b0;
+    font-size: 13px;
+}

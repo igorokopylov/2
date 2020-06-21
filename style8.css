@@ -1,0 +1,68 @@
+body {
+    background-color: #FDDE7E;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+.bronze, .gold, .silver {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 31%;
+    height: 445px;
+    text-align: center;
+}
+.bronze {
+    background-image: url("./images/bronzecup.png"), url("./images/littlewhite.png");
+}
+.gold {
+    background-image: url("./images/goldcup.png"), url("./images/littlewhite.png");
+}
+.silver {
+    background-image: url("./images/silvercup.png"), url("./images/littlewhite.png");
+}
+
+.bronze:hover, .gold:hover, .silver:hover {
+    height: 504px;
+}
+.bronze:hover {
+    background-image: url("./images/bronzecup.png"), url("./images/bigwhite.png");
+}
+.gold:hover {
+    background-image: url("./images/goldcup.png"), url("./images/bigwhite.png");
+}
+.silver:hover {
+    background-image: url("./images/silvercup.png"), url("./images/bigwhite.png");
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cost {
+    font-size: 48px;
+    color: #02995B;
+    font-weight: bolder;
+    margin-top: 46px;
+}
+.rang {
+    font-size: 38px;
+    margin-top: 56.4%;
+    margin-bottom: 18px;
+}
+cost:hover {
+    margin-top: 76px;
+}
+rang:hover {
+    font-size: 68px;
+}
+.any {
+    font-size: 12px;
+    margin-top: 0;
+}
