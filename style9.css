@@ -6,15 +6,20 @@
     font-family: "Roboto Slab";
     src: url("./fonts/RobotoSlab-VariableFont_wght.ttf")
 }
+@font-face {
+    font-family: "Bazar";
+    src: url("./fonts/Bazar.ttf")
+}
 body {
     background-color: #E18867;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1876px;
+}
+* {
+    box-sizing: border-box;
 }
 .container {
-    /* display: flex; */
-    justify-content: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0px;
 }
 .header {
@@ -24,9 +29,11 @@ body {
     margin-top: 78px;
 }
 .title {
-    background-image: url("./images/portfolio.png");
-    width: 735px;
-    height: 188px;
+    text-shadow: 3px 3px 0 #fcfaf7, 6px 6px 0 #393a3a;
+    color: #393a3a;
+    font-family: Bazar;
+    font-size: 180px;
+    font-weight: 400;
 }
 .line {
     background-image: url("./images/line.png");
@@ -36,65 +43,63 @@ body {
     margin-top: 20px;
     background-position: center;
 }
-.simplicity {
-    /* Style for "SIMPLICITY" */
-width: 569px;
-height: 30px;
-color: #38353e;
-font-family: Oswald;
-font-size: 32px;
-font-weight: 400;
-line-height: 22px;
-text-transform: uppercase;
-margin-top: 23px;
+.text {
+    color: #38353e;
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+.main {
+    margin-top: 30px;
+    background-color: #E18867;
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    font-weight: 700;
+    color: #383a3c;
 }
 .blocks {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 0;
-margin-top: 30px;
-    background-color: #E18867;
-align-items: center;
-justify-content: space-between;
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
-.blocks div {
-    width: 440px;
-    height: 442px;
+.blocks-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: calc(100% / 4 - 30px);
+    height: auto;
+    padding: 15px;
     background-repeat: no-repeat;
-    background-color: #E18867;
     background-color: white;
-    align-content: center;
-    justify-content: center;
-    /* Style for "A VIMEO RE" */
-color: #383a3c;
-font-family: "Roboto Slab";
-font-size: 24px;
-font-weight: 700;
-line-height: 22px;
-text-transform: uppercase;
+    border-radius: 3px;
+    margin: 15px;
+}
+.tag {
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+    align-items: center;
+}
+.tag div {
+    margin-left: 20px;
+    text-align: start;
+}
+#filter {
+    background-color: #E18867;
 }
 .dashed_line {
     margin-top: 22px;
     border: 2px dashed #aa684f
 }
-.tag {
-    color: #383a3c;
-    font-family: "Roboto Slab";
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 22px;
+.footer {
     display: flex;
-    justify-content: start;
+    flex-direction: column;
     align-items: center;
-    align-content: flex-start;
-    margin-top: 80px;
-}
-.tag div {
-    padding-left: 100px;
-    background-image: url("./images/tagbg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    height: 40px;
+    margin-top: 65px;
 }
 .rectagle {
     background-image: url("./images/Rectangle_8.png");
@@ -102,14 +107,11 @@ text-transform: uppercase;
     height: 4px;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 66px;
 }
 .browse {
     color: #38353e;
-font-family: Oswald;
-font-size: 32px;
-font-weight: 400;
-line-height: 22px;
-text-transform: uppercase;
-margin-top: 23px;
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 23px;
 }
