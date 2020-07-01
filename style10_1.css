@@ -1,0 +1,96 @@
+body {
+  background-color: #F6F6F6;
+  font-family: "Lato", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #3c3c3c;
+}
+.heading {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.title {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 9px;
+  padding-bottom: 20px;
+}
+hr {
+  width: 45px;
+  height: 4px;
+  background-color: #dddbdb;
+  color: #dddbdb;
+  border: none;
+}
+.heading-text {
+  text-align: justify;
+  width: 50%;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  padding-bottom: 120px;
+}
+.grid-item {
+  width: calc(100% / 4 - 30px);
+  margin: 15px;
+}
+.card {
+  max-height: 320px;
+}
+.card-photo {
+  width: 100%;
+  object-fit: cover;
+}
+.card-name {
+  color: #646464;
+  font-size: 18px;
+  font-weight: 700;
+}
+.card-status {
+  font-size: 14px;
+  font-weight: 300;
+}
+.card a {
+  display: block;
+  position: relative;
+}
+.card a::after {
+    content: '';
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: rgb(0, 174, 217, 0.9);  
+    opacity: 0;
+}
+.card a::before {
+    content: ''; 
+    position: absolute;
+    top: 110px; 
+    left: 35px; 
+    right: 35px; 
+    bottom: 110px; 
+    background: url(./images/ss.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    opacity: 0; 
+    z-index: 2;
+}
+.card a:hover:before, .card a:hover:after { 
+    opacity: 1; 
+}
