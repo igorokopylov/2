@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Museo Sans Rounded";
+    src: url("./fonts/MuseoSansRounded100.woff");
+}
+* {
+    box-sizing: border-box;
+}
+.page {
+    background-image: url("./images/pagebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Museo Sans Rounded";
+    color: #e1e1e1;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 65%;
+    margin: auto;
+    background-color: #152335;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: -5px -5px 40px black;
+}
+.header {
+    width: 100%;
+    padding: 23px;
+}
+.content {
+    display: flex;
+}
+.gallery {
+    position: relative;
+    width: 60%;
+    text-align: center;
+}
+.gallery__image {
+    /* background-image: url("./images/image.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*! display: flex; */
+    /*! flex-grow: 1; */
+}
+galerry__imagefact {
+    object-fit: fill;
+}
+.gallery__control {
+    position: absolute;
+    bottom: 23px;
+    right: 50%;
+}
+.sidebar {
+    width: 40%;
+}
+.sidebar__title {
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+.sidebar__subtitle {
+    font-size: 14px;
+    padding-bottom: 26px;
+}
+.sidebar__rating {
+    padding-bottom: 27px;
+}
+.dropdown-size {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-size__content {
+    display: none;
+    position: absolute;
+    background-color: #152335;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-size__content a {
+    color: #e1e1e1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-size__content a:hover {
+    background-color: #283443
+}
+.dropdown-size:hover .dropdown-size__content {
+    display: block;
+}
+.dropdown-size:hover .dropdown-size__button {
+    background-color: #283443;
+}
+.dropdown-size__button {
+    background-color: #152335;
+    color: #e1e1e1;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px #e1e1e1 solid;
+    cursor: pointer;
+}
+.dropdown-quality {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-quality__content {
+    display: none;
+    position: absolute;
+    background-color: #152335;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-quality__content a {
+    color: #e1e1e1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-quality__content a:hover {
+    background-color: #283443
+}
+.dropdown-quality:hover .dropdown-quality__content {
+    display: block;
+}
+.dropdown-quality:hover .dropdown-quality__button {
+    background-color: #283443;
+}
+.dropdown-quality__button {
+    background-color: #152335;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px #e1e1e1 solid;
+    cursor: pointer;
+}
+.dropdown {
+    padding-bottom: 28px;
+}
+.sidebar-sell {
+    padding-bottom: 75px;
+}
+.sidebar-sell__button {
+    background-color: #152335;
+    color: #e1e1e1;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px #e1e1e1 solid;
+    cursor: pointer;
+}
+.sidebar-sell__button a {
+    color: #e1e1e1;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.sidebar-sell:hover .sidebar-sell__button {
+    background-color: #283443;
+}
